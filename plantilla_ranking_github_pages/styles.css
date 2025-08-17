@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; margin:0; padding: 2rem; background:#0b1020; color:#e9eef9;}
+.container { max-width: 900px; margin: 0 auto; }
+h1 { margin: 0 0 1rem; }
+table { width: 100%; border-collapse: collapse; background:#141b34; border-radius: 16px; overflow:hidden; }
+th, td { padding: 12px 14px; text-align: left; }
+th { background: #1b2547; position: sticky; top: 0; }
+tr:nth-child(even) td { background: #121938; }
+.rank { width: 64px; text-align: right; font-variant-numeric: tabular-nums; }
+.score { text-align: right; font-variant-numeric: tabular-nums; }
+.badge { display:inline-block; padding: 4px 8px; border-radius: 999px; background:#243269; font-size: 12px; color:#cfe0ff; }
+#estado { opacity: .8; margin-bottom: .75rem; }
+footer { margin-top: 1rem; font-size: 12px; opacity: .7; }
